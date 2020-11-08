@@ -13,7 +13,8 @@ DATABASE/MYSQL FUCNTIONALITY EXCLUDED/COMMENTED; CLUSTER LOAD-BALANCING EXCLUDED
 • The client application has a graphical interface with the user, it offers the possibility to connect to any node in the cluster to take over the topology and to select the node and the service to be run!     
 • The client application provides a detailed description of each service that is present on the node;    
 • For scaling, a node in the cluster runs the services requested by clients using the concurrent runtime environment provided by java.util.concurrent.ThreadPoolExecutor.
-************************************************** HOW TO RUN ******************************************************************
+
+****************** HOW TO RUN ******************
 Can be runned from IDE or using .jar files/archives. 
 When running from IDE be sure to check "Allow paralel run" or equivalent ! and be sure to set a new port to any other new runnable instance, default is 5566!
 When running via .jar files the commands are as follows : 
