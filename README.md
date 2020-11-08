@@ -20,6 +20,9 @@ DATABASE/MYSQL FUCNTIONALITY EXCLUDED/COMMENTED; CLUSTER LOAD-BALANCING EXCLUDED
 Can be runned from IDE or using .jar files/archives. 
 When running from IDE be sure to check "Allow paralel run" or equivalent ! and be sure to set a new port to any other new runnable instance, default is 5566!
 When running via .jar files the commands are as follows : 
+ path to .jar files: 
+dissertation_PhD/Proj_Disertatie/out/artifacts/Client_jar/
+dissertation_PhD/Proj_Disertatie/out/artifacts/Node_jar/
 
 --for Node app : " java -cp Node.jar main.Node 5566 "// the 4 digit number is for specifying the port, when running multiple instances on the same machine be sure to change! 
 
