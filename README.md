@@ -18,8 +18,12 @@ DATABASE/MYSQL FUCNTIONALITY EXCLUDED/COMMENTED; CLUSTER LOAD-BALANCING EXCLUDED
 Can be runned from IDE or using .jar files/archives. 
 When running from IDE be sure to check "Allow paralel run" or equivalent ! and be sure to set a new port to any other new runnable instance, default is 5566!
 When running via .jar files the commands are as follows : 
+
 --for Node app : " java -cp Node.jar main.Node 5566 "// the 4 digit number is for specifying the port, when running multiple instances on the same machine be sure to change! 
+
 -- for Client app : " java -cp Client.jar main.ClientAppMain " 
+
     In the Client app use the Cluster handler port (default 4499) not the node port set at runtime ! and for the ip it should be the host machine ip that the node app is running from. 
+
 !!!!! MULTIPLE INSTANCES OF NODES CAN BE RUN ON THE SAME MACHINE WITH SAME IP, JUST BY CHANGING THE PORT NUMBER, HENCE SIMULATING SCALABILITY OF NODES IN CLUSTER !!!     
   
