@@ -2,7 +2,9 @@
 
 Disseration(PhD) project (defended in 2020, TUIASI).
 Distributed app similar to a CRM/CNM(Cluster Resource Manager/ Cluster Nodes Manager).
+
 DATABASE/MYSQL FUCNTIONALITY EXCLUDED/COMMENTED; CLUSTER LOAD-BALANCING EXCLUDED ENTIRELY!
+
 • The application is focused on heart-beats;     
 • Communication between nodes takes place through UDP packets;     
 • The application identifies at the time of running each node separately, the topology of a cluster (of the nodes in the cluster), as well as the services running on these nodes;    
